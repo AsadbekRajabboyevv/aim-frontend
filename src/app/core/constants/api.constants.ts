@@ -1,5 +1,5 @@
 const isLocalhostDev = typeof window !== 'undefined' && window.location.hostname === 'localhost' && window.location.port === '4200';
-export const SERVER_BASE_URL = isLocalhostDev ? 'http://localhost:8080' : '';
+export const SERVER_BASE_URL = isLocalhostDev ? 'http://localhost:8080' : 'https://api.aim.asadbek-rajabboyev.uz';
 export const API_BASE_URL = `${SERVER_BASE_URL}/api/v1`;
 
 export const STORAGE_KEY_ACCESS_TOKEN = 'onlinemenu.accessToken';
